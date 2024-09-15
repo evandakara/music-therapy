@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Music Therapy</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Music Therapy for Mental Health</h1>
+        </header>
+        <main>
+            <section id="home">
+                <button id="startQuestionnaire">Start Questionnaire</button>
+            </section>
+            <section id="questionnaire" style="display: none;">
+                <!-- Questionnaire Pages -->
+                <!-- Page 1: Mood -->
+                <div class="question-page" id="page1">
+                    <h2>How are you feeling?</h2>
+                    <label><input type="radio" name="mood" value="happy">
+                        Happy</label><br>
+                    <label><input type="radio" name="mood" value="sad">
+                        Sad</label><br>
+                    <label><input type="radio" name="mood" value="angry">
+                        Angry</label><br>
+                    <button class="next-page">Next</button>
+                </div>
+
+                <!-- Page 2: Purpose -->
+                <div class="question-page" id="page2">
+                    <h2>What is your purpose?</h2>
+                    <label><input type="radio" name="purpose"
+                            value="mood improvement"> Mood
+                        Improvement</label><br>
+                    <label><input type="radio" name="purpose"
+                            value="emotional management"> Emotional
+                        Management</label><br>
+                    <label><input type="radio" name="purpose"
+                            value="relaxation and reduce stress"> Relaxation and
+                        Reduce Stress</label><br>
+                    <button class="next-page">Next</button>
+                </div>
+
+                <!-- Page 3: Genre -->
+                <div class="question-page" id="page3">
+                    <h2>Choose a Music Genre</h2>
+                    <label><input type="radio" name="genre" value="pop">
+                        Pop</label><br>
+                    <label><input type="radio" name="genre"
+                            value="jazz/classic"> Jazz/Classic</label><br>
+                    <label><input type="radio" name="genre"
+                            value="rock/alternative">
+                        Rock/Alternative</label><br>
+                    <label><input type="radio" name="genre" value="ambient">
+                        Ambient</label><br>
+                    <button class="next-page">Finish</button>
+                </div>
+
+            </section>
+            <section id="playlist" style="display: none;">
+                <h2>Your Playlist</h2>
+                <div id="playlistContainer"></div>
+            </section>
+        </main>
+        <script src="scripts.js"></script>
+    </body>
+</html>
