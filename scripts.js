@@ -73,7 +73,7 @@ function generatePlaylist() {
             'mood improvement': {
                 'pop': 'angry_mood_pop_playlist_id',
                 'jazz/classic': 'angry_mood_jazz_classic_playlist_id',
-                'rock/alternative': 'https://open.spotify.com/playlist/2mnIxFvwfhCrADxcD4kMiF?si=76ef455c0cd14466&pt=85415653e7f025c16bcee48e778976b0',
+                'rock/alternative': '2mnIxFvwfhCrADxcD4kMiF',
                 'ambient': 'angry_mood_ambient_playlist_id',
             },
             'emotional management': {
